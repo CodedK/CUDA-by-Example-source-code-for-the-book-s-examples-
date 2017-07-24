@@ -27,3 +27,6 @@ Edward Kandrot is a senior software engineer on NVIDIA’s CUDA Algorithms team,
 
 
 ![CUDA-by-Example](https://github.com/CodedK/CUDA-by-Example-source-code-for-the-book-s-examples-/blob/master/Pearson_CUDA_BookCover.jpg)
+
+
+https://developer.nvidia.com/cuda-example
