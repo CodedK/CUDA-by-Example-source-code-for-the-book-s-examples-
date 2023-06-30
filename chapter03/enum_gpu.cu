@@ -1,16 +1,16 @@
 /*
  * Copyright 1993-2010 NVIDIA Corporation.  All rights reserved.
  *
- * NVIDIA Corporation and its licensors retain all intellectual property and 
- * proprietary rights in and to this software and related documentation. 
- * Any use, reproduction, disclosure, or distribution of this software 
+ * NVIDIA Corporation and its licensors retain all intellectual property and
+ * proprietary rights in and to this software and related documentation.
+ * Any use, reproduction, disclosure, or distribution of this software
  * and related documentation without an express license agreement from
  * NVIDIA Corporation is strictly prohibited.
  *
- * Please refer to the applicable NVIDIA end user license agreement (EULA) 
- * associated with this source code for terms and conditions that govern 
+ * Please refer to the applicable NVIDIA end user license agreement (EULA)
+ * associated with this source code for terms and conditions that govern
  * your use of this NVIDIA software.
- * 
+ *
  */
 
 
@@ -39,7 +39,8 @@ int main( void ) {
             printf( "Disabled\n" );
 
         printf( "   --- Memory Information for device %d ---\n", i );
-        printf( "Total global mem:  %ld\n", prop.totalGlobalMem );
+        // printf( "Total global mem:  %ld\n", prop.totalGlobalMem );
+        printf( "Total global mem:  %zu\n", prop.totalGlobalMem );
         printf( "Total constant Mem:  %ld\n", prop.totalConstMem );
         printf( "Max mem pitch:  %ld\n", prop.memPitch );
         printf( "Texture Alignment:  %ld\n", prop.textureAlignment );
